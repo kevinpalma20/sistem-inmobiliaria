@@ -20,9 +20,8 @@
         <header>  
             <nav class="navbar navbar-light bg-light">
                 <span class="mx-2">Bienvenido <%= model.getFirtsname().concat(" ").concat( model.getLastname() ) %> </span>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar propiedades" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                <form class="d-flex" action="AuthController" method="post"> 
+                    <button name="action" value="close" class="btn btn-outline-danger" type="submit">Cerrar sesión</button>
                  </form>
             </nav>
             <h1 class="text-center">DLINMOBILIA</h1>

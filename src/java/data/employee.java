@@ -1,18 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package data;
 
-import java.util.UUID;
-
-/**
- *
- * @author kpalmall
- */
+import java.util.UUID; 
 public class employee {
-    private String id = ""+UUID.randomUUID().toString().toUpperCase().subSequence(0,5); 
+    private String id = "E"+UUID.randomUUID().toString().toUpperCase().subSequence(0,4); 
     private String firtsname, lastname, dni, email, number, photo; 
     private String password = ""+UUID.randomUUID().toString().toUpperCase().subSequence(0,7);   
 

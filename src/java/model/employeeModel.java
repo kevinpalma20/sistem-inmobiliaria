@@ -15,7 +15,8 @@ public class employeeModel {
     public employeeModel() {
     }
 
-    public employeeModel(String id, String firtsname, String lastname, String dni, String email, String number, String photo, String password) {
+    public employeeModel(String id, String firtsname, String lastname, 
+            String dni, String email, String number, String photo, String password) {
         this.id = id;
         this.firtsname = firtsname;
         this.lastname = lastname;

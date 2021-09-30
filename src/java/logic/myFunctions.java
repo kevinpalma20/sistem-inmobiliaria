@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package logic;
 
 import java.math.*;
 import java.security.*;
 
-/**
- *
- * @author kpalmall
- */
 public class myFunctions {
     public static String enMD5(String input) {
         try {
